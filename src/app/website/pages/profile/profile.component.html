@@ -1,0 +1,7 @@
+<div *ngIf="user">
+  <h1>My Perfil</h1>
+  <P>Nombre: {{user.name}}</P>
+  <P>Email: {{user.email}}</P>
+  <P>Role: {{user.role}}</P>
+  <a *ngIf="user.role==='admin'" routerLink="/cms">Ir al CMS</a>
+</div>

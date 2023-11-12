@@ -1,0 +1,16 @@
+{
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "ignore",
+  "printWidth": 70,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 100
+      }
+    }
+  ]
+}
